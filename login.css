@@ -1,0 +1,139 @@
+/*FOR MARGIN 0*/
+html, body{
+  margin: 0;
+  padding: 0;
+}
+
+/* Style for header */
+.header {
+    background-color: #b9f4f4;
+    color: #fff;
+    padding: 2%;
+    height: 40%;
+    width: 96%;
+    position: relative;
+  }
+  
+  .logo img {
+    height: 20%;
+    width: 20%;
+  }
+  
+  .logo h1 {
+    font-size: 40px;
+    float: right;
+    margin-right: 2%;
+    margin-top: 1%;
+  }
+
+  .bv_logo{
+    /* border-color: #001c36;
+    border-width: 1%;
+    border-style: dashed;  */
+    justify-content: right;  
+    float: right; 
+    transform: translate(-5%, -85%);
+    height: 19%;
+    width: 19%; 
+  }
+
+  /* Style for container */
+  .container {
+    height: 72vh; 
+    padding: 2%;
+    width: 96%;
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(rgb(179, 243, 245) 10% , rgba(255, 255, 255, 0) ), url("bg1.jpg");
+  }
+  
+
+  /* for sign in text */
+  h2 {
+    margin-top: 10vh;
+    text-align: center;
+    color: #255582;
+    font-size: 120%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 100;
+  }
+  
+  /* for button*/
+
+  .button-container{
+    display: grid;
+    place-items: center;
+}
+
+.button-customer{
+  text-decoration: none;
+  color: #b9f4f4;
+  height: 20%;
+  width: 20%;
+  border-radius: 2%;
+  background-color: #255582;
+  padding: 2%;
+  text-align: center;
+  
+}
+
+.button-shopkeeper{
+  text-decoration: none;
+  color: #b9f4f4;
+  height: 20%;
+  width: 20%;
+  border-radius: 2%;
+  background-color: #255582;
+  padding: 2%;
+  text-align: center;
+  left: 50%;
+}
+
+.button-customer:hover{
+  background-color: #0003033b;
+  color: #001c36;
+}
+
+.button-shopkeeper:hover{
+  background-color: #0003033b;
+  color: #001c36;
+}
+
+/*for the hr tag*/
+.hr_tag{
+  display: flex;
+  justify-content: center;margin-top: 5%;
+}
+
+hr {
+  display: inline-block;
+  width: 10%;
+  height: 1px;
+  background-color: #00000021;
+  border: none;
+  margin: 1%;
+}
+
+.hr-left {
+  margin-right: 10px;
+}
+
+.hr-right {
+  margin-left: 10px; }
+
+span {
+  display: inline-block;
+  vertical-align: middle;
+  color: #255582;
+}
+
+/*create new account text*/
+.create_new_text{
+  text-decoration: none;
+  color:#122a41;
+  display: flex;
+  justify-content: center;
+  margin-top: 3%;
+}
